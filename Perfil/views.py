@@ -23,7 +23,7 @@ def home(request):
     total_contas = calcular_total(contas, 'valor')
     percentual_gastos_essenciais,percentual_gastos_nao_essenciais =  calcula_equilibio_financeiro()
 
-    return render(request,'home.html', {'contas': contas, 
+    return render(request,'index.html', {'contas': contas, 
                                         'total_livre': total_livre,
                                         'total_contas' : total_contas, 
                                         'total_entradas': total_entradas, 
