@@ -5,9 +5,6 @@ Projeto construido para oferecer uma interface para o gerenciamento financeiro d
 Tecnologias: Python | Django | Html | Css | Javascript | SQL
 
 
-## 🔗 Link
-Deploy feito pelo Fly.io 
-
 
 ## Deploy manual
 
